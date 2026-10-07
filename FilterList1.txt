@@ -1,4 +1,4 @@
-! Title: Custom Ad/Tracker Block List for AdGuard Titanium Extension
+! Title: Custom Ad/Tracker Block List for uBlock Titanium Extension
 ! Description: Filter list for ads, analytics, and tracking domains
 ! Version: 1.0
 ! Last updated: 02 Oct 2026

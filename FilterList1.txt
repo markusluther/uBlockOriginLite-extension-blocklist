@@ -184,6 +184,7 @@
 ||data.mistat.rus.xiaomi.com^
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.xiaomi.com^
+||tracking.rus.miui.com^
 
 ! --- Oppo ---
 ||data.ads.oppomobile.com^

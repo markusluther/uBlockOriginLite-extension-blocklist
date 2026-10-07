@@ -1,0 +1,281 @@
+! Title: Custom Ad/Tracker Block List for uBlock Extension
+! Description: Filter list for ads, analytics, and tracking domains
+! Version: 1.0
+! Last updated: 02 Oct 2026
+
+! --- Google Services & Ads ---
+||mtalk.google.com^
+||android.apis.google.com^
+||googleadservices.com^
+||adservice.google.com^
+||googleads.g.doubleclick.net^
+||doubleclick.net^
+||tpc.googlesyndication.com^
+||ssl.google-analytics.com^
+||google-analytics.com^
+||googlesyndication.com^
+||domains.googlesyndication.com^
+||0.fls.doubleclick.net^
+||beacons.gcp.gvt2.com^
+||firebaselogging-pa.googleapis.com^
+||firebaseremoteconfig.googleapis.com^
+||update.googleapis.com^
+||connectivitycheck.gstatic.com^
+||ads.youtube.com^
+||s0.2mdn.net^
+||s1.2mdn.net^
+||pubads.g.doubleclick.net^
+||ad.doubleclick.net^
+||static.doubleclick.net^
+||googletagservices.com^
+||www-googletagmanager.l.google.com^
+||www-google-analytics.l.google.com^
+||analytic-google.com^
+||stats.g.doubleclick.net^
+||securepubads.g.doubleclick.net^
+||click.googleanalytics.com^
+||analytics.google.com^
+||pagead2.googlesyndication.com^
+||pagead2.googleadservices.com^
+||afs.googlesyndication.com^
+||m.doubleclick.net^
+||mediavisor.doubleclick.net^
+||firebaselogging.googleapis.com^
+||suggestqueries.google.com^
+
+! --- YouTube & Google Video ---
+||r9---sn-vgqsenez.googlevideo.com^
+||yt3.ggpht.com^
+||rr1---sn-cgxqc5oqufv-5goe.googlevideo.com^
+
+! --- Facebook/Meta ---
+||graph.instagram.com^
+||graph.facebook.com^
+||mqtt-mini.facebook.com^
+||instagram.fbey23-1.fna.fbcdn.net^
+||an.facebook.com^
+||pixel.facebook.com^
+
+! --- Amazon ---
+||adtago.s3.amazonaws.com^
+||analyticsengine.s3.amazonaws.com^
+||analytics.s3.amazonaws.com^
+||advice-ads.s3.amazonaws.com^
+||advertising-api-eu.amazon.com^
+
+! --- Lucky Orange (Analytics) ---
+||settings.luckyorange.net^
+||cs.luckyorange.net^
+||upload.luckyorange.net^
+||w1.luckyorange.com^
+||cdn.luckyorange.com^
+||realtime.luckyorange.com^
+||api.luckyorange.com^
+||luckyorange.com^
+
+! --- Mouseflow (Analytics) ---
+||cdn-test.mouseflow.com^
+||tools.mouseflow.com^
+||mouseflow.com^
+||cdn.mouseflow.com^
+
+! --- Hotjar (Analytics) ---
+||hotjar.com^
+||events.hotjar.io^
+
+! --- App Measurement (Firebase) ---
+||app-measurement.com^
+
+! --- AdColony (Ad Network) ---
+||wd.adcolony.com^
+||ads30.adcolony.com^
+||events3alt.adcolony.com^
+||adc3-launch.adcolony.com^
+
+! --- Media.net (Ad Network) ---
+||media.net^
+
+! --- Freshmarketer (Marketing) ---
+||freshmarketer.com^
+||fwtracks.freshmarketer.com^
+||claritybt.freshmarketer.com^
+
+! --- WordPress Stats ---
+||stats.wp.com^
+
+! --- Bugsnag (Error Tracking) ---
+||app.bugsnag.com^
+||api.bugsnag.com^
+||sessions.bugsnag.com^
+||notify.bugsnag.com^
+
+! --- Sentry (Error Tracking) ---
+||app.getsentry.com^
+||browser.sentry-cdn.com^
+
+! --- LinkedIn Ads ---
+||ads.linkedin.com^
+||analytics.pointdrive.linkedin.com^
+
+! --- ByteDance/TikTok ---
+||log.byteoversea.com^
+||ads.tiktok.com^$important
+||business-api.tiktok.com^
+||analytics-sg.tiktok.com^
+||ads-sg.tiktok.com^
+||ads-api.tiktok.com^
+||analytics.tiktok.com^
+
+! --- Twitter/X Ads ---
+||ads-api.twitter.com^
+||static.ads-twitter.com^
+
+! --- Pinterest ---
+||analytics.pinterest.com^
+||log.pinterest.com^
+||ads.pinterest.com^
+||widgets.pinterest.com^
+||trk.pinterest.com^
+
+! --- Yahoo ---
+||ads.yahoo.com^
+||analytics.yahoo.com^
+||geo.yahoo.com^
+||udc.yahoo.com^
+||udcm.yahoo.com^
+||advertising.yahoo.com^
+||analytics.query.yahoo.com^
+||partnerads.ysm.yahoo.com^
+||log.fc.yahoo.com^
+||gemini.yahoo.com^
+||adtech.yahooinc.com^
+
+! --- Yandex ---
+||adfox.yandex.ru^
+||advertising.yandex.ru^
+||metrika.yandex.ru^
+||adfstat.yandex.ru^
+||appmetrica.yandex.ru^
+||extmaps-api.yandex.net^
+||offerwall.yandex.net^
+
+! --- Unity Ads (Game Ads) ---
+||adserver.unityads.unity3d.com^
+||config.unityads.unity3d.com^
+||webview.unityads.unity3d.com^
+||auction.unityads.unity3d.com^
+
+! --- Apple Services ---
+||advertising.apple.com^
+||tr.iadsdk.apple.com^
+||iadsdk.apple.com^
+||metrics.icloud.com^
+||metrics.mzstatic.com^
+||api-adservices.apple.com^
+||books-analytics-events.apple.com^
+||weather-analytics-events.apple.com^
+||notes-analytics-events.apple.com^
+
+! --- Xiaomi ---
+||api.ad.xiaomi.com^
+||globalapi.ad.xiaomi.com^
+||sdkconfig.ad.intl.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
+||data.mistat.rus.xiaomi.com^
+||data.mistat.india.xiaomi.com^
+||data.mistat.xiaomi.com^
+||tracking.rus.miui.com^
+
+! --- Oppo ---
+||data.ads.oppomobile.com^
+||ck.ads.oppomobile.com^
+||adx.ads.oppomobile.com^
+||adsfs.oppomobile.com^
+
+! --- Realme ---
+||bdapi-in-ads.realmemobile.com^
+||bdapi-ads.realmemobile.com^
+||iot-logser.realme.com^
+||iot-eu-logser.realme.com^
+
+! --- Huawei/Honor ---
+||metrics2.data.hicloud.com^
+||metrics.data.hicloud.com^
+||logbak.hicloud.com^
+||logservice1.hicloud.com^
+||logservice.hicloud.com^
+||grs.hicloud.com^
+
+! --- OnePlus ---
+||open.oneplus.net^
+||click.oneplus.cn^
+
+! --- Samsung ---
+||samsung-com.112.2o7.net^
+||analytics-api.samsunghealthcn.com^
+||smetrics.samsung.com^
+||samsungads.com^
+
+! --- AdForm (Ad Network) ---
+||track.adform.net^
+||adform.net^
+
+! --- Adswizz (Audio Ad Platform) ---
+||delivery-cdn-cf.adswizz.com^
+||adswizz.com^
+||reporting-eu.deliveryengine.adswizz.com^
+
+! --- Avast ---
+||analytics.ff.avast.com^
+||avast.com^
+
+! --- Innovid (Video Ads) ---
+||s.innovid.com^
+
+! --- Serving-Sys (Ad Tech) ---
+||secure-ds.serving-sys.com^
+
+! --- TubeMogul (Yahoo Video Ads) ---
+||rtd.tubemogul.com^
+
+! --- Pushwoosh (Push Notifications) ---
+||5ac12-a1275.api.pushwoosh.com^
+
+! --- Alibaba ---
+||54nije.tdum.alibaba.com^
+
+! --- Cloudflare (Hashed subdomain) ---
+||733868e706dd40d3a4a0588fc39b3df8.pacloudflare.com^
+
+! --- YouBoRa (Ad Server) ---
+||a-fds.youborafds01.com^
+
+! --- Acstat (Analytics) ---
+||acstat.com^
+
+! --- UMA Analytics ---
+||analytics.uma.tech^
+
+! --- XZ Analytics ---
+||analytics.zxz.su^
+
+! --- Dewrain (Unknown tracker) ---
+||int.dewrain.world^
+
+! --- Akisin (Unknown tracker) ---
+||int.akisinn.info^
+
+! --- Ero Advertising ---
+||_thums.ero-advertising.com^
+
+! --- MSN Beacon ---
+||0.r.msn.com^
+
+! --- Reddit ---
+||events.redditmedia.com^
+||events.reddit.com^
+
+! --- Akamai CDN (Tracking-related) ---
+||a1089.dscd.akamai.net^
+||a1887.dscq.akamai.net^
+||a1944.dscr.akamai.net^

@@ -120,7 +120,6 @@
 ! --- ByteDance/TikTok ---
 ||log.byteoversea.com^
 ||ads.tiktok.com^$important
-||ads.tiktok.com^$important
 ||business-api.tiktok.com^
 ||analytics-sg.tiktok.com^
 ||ads-sg.tiktok.com^
